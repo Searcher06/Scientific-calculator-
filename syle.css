@@ -1,0 +1,147 @@
+body {
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 2px 1px rgb(177, 172, 174);
+    height: 360px;
+    border-bottom-right-radius: 43px;
+    border-bottom-left-radius: 43px;
+
+}
+.header p {
+    font-family: Square721 BT;
+    font-weight:bold;
+    color:rgb(15, 143, 143);
+}
+.screen-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.screen-container input {
+    width:90%;
+    height:45px;
+    font-size: 14px;
+    text-align: right;
+    font-size: 20px;
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+}
+.on-off {
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.powers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.on-off button {
+    height: 24px;
+    font-size: 12px;
+    width: 40px;
+    font-family:Consolas;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+    align-items: center;
+}
+.upper button {
+    width: 52.5px;
+    height: 26px;
+}
+.numbers-operators {
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+}
+.numbers button{
+    height: 30px;
+    width: 53px;
+    margin-top: 6px;
+    margin-left: 1px;
+}
+.operators button{
+    height: 30px;
+    width: 51px;
+    margin-top: 6px;
+    margin-left: 1px;
+    background-color: rgb(78, 101, 114);
+    color: white;
+    border-radius: 5px;
+}
+button {
+    text-align: center;
+    border: none;
+    box-shadow: 0px 1px 2px 1px rgb(219, 213, 213);
+}
+.footer {
+    height: 26px;
+    width: 94%;
+    margin: auto;
+    margin-top: 9px;
+    background-color:rgb(15, 143, 143);
+    margin-bottom: 4px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.operators button:active {
+background-color: rgb(25, 38, 46);
+}
+.numbers button:active,.upper button:active {
+background-color: rgb(170, 168, 168);
+}
+.on-off button:active {
+background-color: rgb(15, 143, 143);
+color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+    align-items: center;
+    margin: auto;
+}
+.header input {
+    height: 20px;
+    width: 90px;
+    text-align: center;
+    font-family: Square721 BT;
+    font-weight: bold;
+}
+sup {
+    font-size: 9px;
+}
+.test {
+    width: 50px;
+    height: 20px;
+    background-color: rgb(41, 35, 136);
+    display: none;
+}
+/*
+rgb(150, 16, 60)
+rgb(150, 16, 16)
+rgb(17, 241, 185)
+rgb(6, 7, 7)
+rgb(55, 11, 66)
+rgb(100, 12, 46)
+rgb(245, 19, 19)
+rgb(128, 245, 19)
+rgb(41, 35, 136)
