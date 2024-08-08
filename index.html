@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="syle.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="test"></div>
+    <div class="container">
+        <div class="header">
+            <p id="cname">Nano-v 24</p>
+            <input type="text" disabled = "disabled" id="clock-container">
+        </div>
+
+        <div class="screen-container">
+            <input type="text" disabled = "disabled" id="screen">
+        </div>
+
+        <div class="buttons-container">
+           <div class="powers">
+            <div class="on-off">
+                <button onclick="random()">ran#</button>
+                <button>acos</button>
+                <button onclick="display(`(`)">(</button>
+                <button onclick="display(`)`)">)</button>
+                <button>asin</button>
+                <button>atan</button>
+            </div>
+           </div>
+
+            <div class="buttons">
+                <div class="upper">
+                    <button onclick="sqr()">sqr</button>
+                    <button onclick="log()">log</button>
+                    <button onclick="tan()">tan</button>
+                    <button onclick="sin()">sin</button>
+                    <button onclick="cos()">cos</button>
+                </div>
+                <div class="numbers-operators">
+                    <div class="numbers">
+                        <button onclick="display('7')">7</button>
+                        <button onclick="display('8')">8</button>
+                        <button onclick="display('9')">9</button><br>
+                        <button onclick="display('4')">4</button>
+                        <button onclick="display('5')">5</button>
+                        <button onclick="display('6')">6</button><br>
+                        <button onclick="display('1')">1</button>
+                        <button onclick="display('2')">2</button>
+                        <button onclick="display('3')">3</button><br>
+                        <button onclick="display('0')">0</button>
+                        <button onclick="display('.')">.</button>
+                        <button onclick="exp()">Exp</button>
+                    </div>
+                    <div class="operators">
+                        <button onclick="del()">Del</button>
+                        <button onclick="clr()">AC</button><br>
+                        <button onclick="display('*')">x</button>
+                        <button onclick="display('/')">/</button><br>
+                        <button onclick="display('+')">+</button>
+                        <button onclick="display('-')">-</button><br>
+                        <button style="font-family: cursive;" onclick="square()">x<sup>2</sup></button>
+                        <button onclick="calculate()">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer" id="footer" onclick="change()"></div>
+    </div>
+</body>
+</html>
